@@ -20,10 +20,10 @@ public class KontoTest {
 		System.out.println("Anzahl Konten: "+Konto.zaehler);
 		Konto deinKonto = new Konto(4531088);
 		System.out.println("Anzahl Konten: " + Konto.zaehler);
-		System.out.println("Kontonummer von deinKonto: " + deinKonto.kontonummer);
+		System.out.println("Kontonummer von \"deinKonto\": " + deinKonto.kontonummer);
 
 		meinKonto.einzahlen(300.00);
-		deinKonto.einzahlen(300.00);
+		deinKonto.einzahlen(400.00);
 
 		Konto unserKonto;
 		// Zuweisung
