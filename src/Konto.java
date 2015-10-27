@@ -1,6 +1,6 @@
 
 public class Konto {
-	static int zaehler = 0;		// --> Klassenvariable
+	static int zaehler = 1;		// --> Klassenvariable
 	public int kontonummer;	// --> Instanzvariablen
 	protected double saldo;
 	
